@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "Opendocs",
     base: '/opendocs',
-    outDir: '../public',
+    outDir: './docs',
     description: "A Free Docs",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
